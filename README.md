@@ -13,7 +13,7 @@ The data contains all loans asked to the bank, whether the bank decided to grant
 
 ### Rule
 
-To compare to the bank's current model, the following rule is assumed:
+To compare the profitability of our model to that of the bank's current strategy, the following rule is assumed:
 
   * If our model grant a loan and it doesn't get repaid, we lose 1
   * If our model grant a loan and it gets repaid, we gain 1
