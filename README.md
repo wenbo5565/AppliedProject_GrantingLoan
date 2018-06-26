@@ -23,7 +23,7 @@ To compare the profitability of our model to that of the bank's current strategy
 
 Please see the project report and code link for details.
 
-[Project Report: Data Description, Exploratory Analysis and Model Building Procedure](https://github.com/wenbo5565/AppliedProject_GrantingLoan/blob/master/Project_Report__Loan_Granting.pdf)
+[Project Report](https://github.com/wenbo5565/AppliedProject_GrantingLoan/blob/master/Project_Report__Loan_Granting.pdf) : Data Description, Exploratory Analysis and Model Building Procedure
 
 [Project Code](https://github.com/wenbo5565/AppliedProject_GrantingLoan/blob/master/GrantingLoan%20core.py)
 
