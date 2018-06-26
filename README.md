@@ -1,4 +1,8 @@
-# AppliedProject_GrantingLoan
+# Applied Project - Loan Granting
+
+## Introduction
+
+
 Report and code for take home data science challenge - Granting Loans
 
 [Project Code](https://github.com/wenbo5565/AppliedProject_GrantingLoan/blob/master/GrantingLoan%20core.py)
