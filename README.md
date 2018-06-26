@@ -29,3 +29,6 @@ Please see the project report and code link for details.
 
 ## Result and Proposed Strategy
 
+### Profitability
+
+Based on the scoring assumption from **Rule** above, our model dominates the bank's current strategy (calculated based on the data). The performance are as follows:
