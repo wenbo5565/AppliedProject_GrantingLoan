@@ -19,10 +19,13 @@ To compare the profitability of our model to that of the bank's current strategy
   * If our model grant a loan and it gets repaid, we gain 1
   * If our model dosen't grant the loan, we gain 0
 
-## Model Building Process and Project Report
+## Model Building Procedure and Analysis
+
+Please see the project report and code link for details.
 
 [Project Report](https://github.com/wenbo5565/AppliedProject_GrantingLoan/blob/master/Project_Report__Loan_Granting.pdf)
 
 [Project Code](https://github.com/wenbo5565/AppliedProject_GrantingLoan/blob/master/GrantingLoan%20core.py)
 
-## Result
+## Result - Proposed Strategy
+
