@@ -23,9 +23,9 @@ To compare the profitability of our model to that of the bank's current strategy
 
 Please see the project report and code link for details.
 
-[Project Report](https://github.com/wenbo5565/AppliedProject_GrantingLoan/blob/master/Project_Report__Loan_Granting.pdf) : Data Description, Exploratory Analysis and Model Building Procedure
+[Project Report](https://github.com/wenbo5565/AppliedProject_GrantingLoan/blob/master/Project_Report__Loan_Granting.pdf) --- Data Description, Exploratory Analysis and Model Building Procedure
 
-[Project Code](https://github.com/wenbo5565/AppliedProject_GrantingLoan/blob/master/GrantingLoan%20core.py)
+[Project Code](https://github.com/wenbo5565/AppliedProject_GrantingLoan/blob/master/GrantingLoan%20core.py) --- All Python Code for the Project
 
 ## Result and Proposed Strategy
 
@@ -37,3 +37,7 @@ Based on the scoring assumption from **Rule** above, our model dominates the ban
 | --- | --- | ---- |
 | Bank's Current Model | 1376 | 0.289 |
 | Our Model | 2699 | 0.566 |
+
+### Strategy
+
+
