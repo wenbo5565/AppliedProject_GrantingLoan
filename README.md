@@ -27,5 +27,5 @@ Please see the project report and code link for details.
 
 [Project Code](https://github.com/wenbo5565/AppliedProject_GrantingLoan/blob/master/GrantingLoan%20core.py)
 
-## Result - Proposed Strategy
+## Result and Proposed Strategy
 
