@@ -2,7 +2,22 @@
 by Wenbo Ma
 
 ## Introduction
-Machine learning plays an important role in choosing if granting a loan. In this project, we have access to a bank's loan application data. Our goal is to leverage machine learning model to come up with a loan strategy that would be better than the bank's current strategy.
+
+### Overview
+
+Machine learning plays an important role in choosing if granting a loan. In this project, we have access to a bank's loan application data. Our goal is to leverage machine learning model to come up with a loan strategy that would be better than the bank's current one.
+
+### Data
+
+The data contains all loans asked to the bank, whether the bank decided to grant it and finally, whether the borrower managed to repay it. We also have info about the borrowers at the time they ask for a loan.
+
+### Rule
+
+To compare to the bank's current model, the following rule is assumed:
+
+  * If our model grant a loan and it doesn't get repaid, we lose 1
+  * If our model grant a loan and it gets repaid, we gain 1
+  * If our model dosen't grant the loan, we gain 0
 
 Report and code for take home data science challenge - Granting Loans
 
