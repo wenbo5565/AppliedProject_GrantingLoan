@@ -32,3 +32,8 @@ Please see the project report and code link for details.
 ### Profitability
 
 Based on the scoring assumption from **Rule** above, our model dominates the bank's current strategy (calculated based on the data). The performance is shown below.
+
+| Model | Total Score | Mean Score per Loan
+| --- | --- | ---- |
+| Bank's Current Model | 1376 | 0.289 |
+| Our Model | 2699 | 0.566 |
