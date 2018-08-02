@@ -9,7 +9,7 @@ Loan interest charges is an important revenue stream for commerial banks and oth
 
 ### Data
 
-The data contains all loans asked to the bank, whether the bank decided to grant it and finally, whether the borrower managed to repay it. We also have info about the borrowers at the time they ask for a loan.
+The data contains all loan applications submitted to a bank, whether the bank decided to grant it and finally, whether the borrower managed to repay it. We also have info about the borrowers at the time they ask for a loan.
 
 ### Rule
 
