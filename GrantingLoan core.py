@@ -20,7 +20,10 @@ from sklearn.model_selection import StratifiedKFold
 from sklearn import preprocessing
 import xgboost as xgb
 plt.rcParams.update({'font.size': 14}) # set fontsize for label
-""" --------------- Define some Helper function --------------- """
+
+# ========================================================
+#               Define Helper functions 
+# ======================================================== 
 
 def xgboost_training(train_x,train_y,valid_x=None,
                      valid_y=None,eval_fun=None,
@@ -65,7 +68,9 @@ def model_performance(true_label,predict_label):
     loss_index = np.logical_and(predict_label==1,true_label==0)
     return 'model score is',np.sum(gain_index)-np.sum(loss_index)
 
-""" --------------- Loading Data --------------- """
+# ==========================================
+#               Loading Data
+# ========================================== 
 
 grant_data = pd.read_csv('nontest_data.csv')
 test_data = pd.read_csv('test_data.csv')
@@ -74,7 +79,9 @@ test_data = pd.read_csv('test_data.csv')
 
 N = len(grant_data)
 
-""" -------------- Data Preprocessing and Feature Engineering ---------- """
+# =================================================
+#    Data Preprocessing and Feature Engineering
+# =================================================
 # extract month and day information
 loan_month = grant_data['date'].apply(lambda x: x[5:7])
 loan_day = grant_data['date'].apply(lambda x: x[8:])
@@ -117,7 +124,9 @@ grant_data['previous_loan_status'][group2_index]=2
 grant_data['previous_loan_status'][group4_index]=4
 grant_data['previous_loan_status'][group5_index]=5
 
-""" --------------- Hyper-parameter Tuning and Cross Validation --------------- """
+# ====================================================
+#   Hyper-parameter Tuning and Cross Validation
+# ====================================================
 
 
 """ prepare label and features """
@@ -165,7 +174,9 @@ print('model performance on training set is {0:.2f}'.format(train_score.mean()))
 print('model performance on validation set is {0:.2f}'.format(valid_score.mean()))
 
 
-""" --- Training Final Model, Making Prediction and Evaluation Result --- """
+# ====================================================================
+#   Training Final Model, Making Prediction and Evaluation Result
+# ====================================================================
 
 dtrain = xgb.DMatrix(data=grant_x,label=grant_y)
 param = {'max_depth':max_depth,'eta':eta,'silent':1,'objective':'binary:logistic',
@@ -228,7 +239,22 @@ model_performance(test_y,ypred_label)
 print("model's mean score on testing set is ")
 model_performance(test_y,ypred_label)[1]/len(ypred_label)
 
-""" ----- analyse impact of important variables -------- """
+print("model's performance on testing set when prediction is 1")
+""" this metric is important because we can analyse if it would be profitable to 
+    grant loans to the denied applicants
+"""
+pos_ind = (ypred_label == 1) # mask array for positive prediction
+
+print("number of cases that model predicts repay and repaid)
+np.sum(test_y[pos_ind] == 1) # number of loan repaid
+print("number of cases that model predicts repay but defaulted)
+np.sum(test_y[pos_ind] == 0) # number of loan defaulted
+print("score to gain when granting a loan")
+(np.sum(test_y[pos_ind] == 1) - np.sum(test_y[pos_ind] == 0))/sum(pos_ind)
+
+# ==============================================
+# Analyse impact of important variables
+# ==============================================
 
 """  check impact of 'is employed' """
 
