@@ -44,4 +44,15 @@ Based on the scoring assumption from the **Rule** section above, our model outpe
 
 From the table above, we can see that our model has much more true positive cases than false positive cases. If we grant a loan for predicted positive case, we would gain 0.89 score on average. Therefore if the bank would run our model on the previously denied applications and grants loans to those predicted repay, the bank would make more profits/scores.
 
+### Strategy on Data Collection
+
+The bank's current data only contains information about an applicant's historical and current situation. The problem with the data is that we have no way to estimate the trajectory of a person. Two people could be in the same economic situation today, but their future economic trajectory can be very different. If there were more personal information, we could start predicting in a much more predictive way. For example, A CS student at a top univeristy will likely have a non great economic situation today, but his/her likelihood of being able to repay the loan in future is much higher than other people with the same current economic situation. Therefore we would recommend the bank collect more personal information.
+
+## Conclusion
+
+In this project, we build a gradient boosting trees model to predict if a loan application will be repaid or not. We conclude the project as follows:
+
+ * Our proposed model outperforms the bank's current strategy given the pre-defined rule.
+ * The bank may want to grant loans to those previoulsy denied applicantions to be more profitable.
+
 
