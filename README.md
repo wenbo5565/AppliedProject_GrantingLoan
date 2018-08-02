@@ -40,7 +40,7 @@ Based on the scoring assumption from the **Rule** section above, our model outpe
 
 ### Strategy on Previously Denied Applications
 
-<img src="https://github.com/wenbo5565/AppliedProject_GrantingLoan/blob/master/attachment/fp.JPG"  height="100%" width="100%">
+<img src="https://github.com/wenbo5565/AppliedProject_GrantingLoan/blob/master/attachment/fp.JPG"  height="50%" width="50%">
 
 
 
