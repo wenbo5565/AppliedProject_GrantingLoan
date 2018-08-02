@@ -42,5 +42,6 @@ Based on the scoring assumption from the **Rule** section above, our model outpe
 
 <img src="https://github.com/wenbo5565/AppliedProject_GrantingLoan/blob/master/attachment/fp.JPG"  height="60%" width="60%">
 
+From the table above, we can see that our model has much more true positive cases than false positive cases. If we grant a loan for predicted positive case, we would gain 0.89 score on average. Therefore if the bank would run our model on the previously denied applications and grants loans to those predicted repay, the bank would make more profits/scores.
 
 
