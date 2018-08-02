@@ -9,7 +9,7 @@ Loan interest charges is an important revenue stream for commerial banks and oth
 
 ### Data
 
-The data is from a private bank. It contains all applications submitted to the bank. The label information includes whether the bank granted it and finally, whether the borrowers managed to repay it. The feature information 
+The data is from a private bank. It contains all applications submitted to the bank. The label information includes whether the bank granted it and finally, whether the borrowers managed to repay it. The features include both information regarding the loan and the applicant such as loan purpose, age, annual salary and etc.
 
 ### Rule
 
