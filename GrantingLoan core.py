@@ -245,9 +245,9 @@ print("model's performance on testing set when prediction is 1")
 """
 pos_ind = (ypred_label == 1) # mask array for positive prediction
 
-print("number of cases that model predicts repay and repaid)
+print("number of cases that model predicts repay and repaid")
 np.sum(test_y[pos_ind] == 1) # number of loan repaid
-print("number of cases that model predicts repay but defaulted)
+print("number of cases that model predicts repay but defaulted")
 np.sum(test_y[pos_ind] == 0) # number of loan defaulted
 print("score to gain when granting a loan")
 (np.sum(test_y[pos_ind] == 1) - np.sum(test_y[pos_ind] == 0))/sum(pos_ind)
