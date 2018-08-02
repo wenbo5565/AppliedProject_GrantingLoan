@@ -5,6 +5,8 @@ by Wenbo Ma
 
 ### Overview
 
+Loan interest charges is an important revenue stream for commerial banks and other financial institutions. Loan application prediction is a key component in the loan management process. In this project, we develop a machine learnning model to predict whether a loan application will be fully paid back in the further based a bank's historical data. We show that our model's performance is better than the bank's current strategy. Additionally, we propose a new strategy to further increase revenues based on our analysis. 
+
 Machine learning plays an important role in choosing if granting a loan. In this project, we have access to a bank's loan application data. Our goal is to leverage machine learning model to come up with a loan strategy that would be better than the bank's current one.
 
 ### Data
