@@ -13,7 +13,7 @@ The data is from a private bank. It contains all applications submitted to the b
 
 ### Rule
 
-To compare the profitability of our model to that of the bank's current strategy, the following rule is assumed:
+To compare profitability of our model to that of the bank's current strategy, following rule is assumed:
 
   * If our model grant a loan and it doesn't get repaid, we lose 1
   * If our model grant a loan and it gets repaid, we gain 1
